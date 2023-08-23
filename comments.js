@@ -55,4 +55,4 @@ const User = mongoose.model('user', new mongoose.Schema({
 const Post = mongoose.model('post', new mongoose.Schema({
     id: String,
     title: String,
-    content: String}) ) 
+    content: String}) )
